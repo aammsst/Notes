@@ -1,17 +1,20 @@
 html{
-    background-color: #222;
+    height: 100%;
 }
 
-.text{
-    color: #ebf6f7;
-    font-family: sans-serif;
-    text-align: center;
+.title1{
+    margin-top: 90px !important;
+}
+
+body p{
+    padding: 10px;
 }
 
 .conteiner
 {
-    background: #444;
-    min-height: 500px;
+    min-height: 250px;
+    max-height: 350px;
+    overflow: scroll;
     border-radius: 4px;
     padding: 10px;
     padding-top: 0;
@@ -37,7 +40,7 @@ html{
 }
 
 #data__input{
-    background-color: #cde;
+    width: 120px;
 }
 
 #btn__add
@@ -72,7 +75,7 @@ html{
     outline: none;
 }
 
-.imposible, .btn__delete, .posible
+.impossible, .btn__delete, .possible
 {
     padding: 0 5px;
     margin: 0 5px;
@@ -81,17 +84,17 @@ html{
     border: none;
 }
 
-.posible
+.possible
 {
     color: #48e;
 }
 
-.posible:hover
+.possible:hover
 {
     color: #169;
 }
 
-.posible:active
+.possible:active
 {
     color: #04d;
 }
@@ -111,7 +114,7 @@ html{
     color: #f11;
 }
 
-.imposible
+.impossible
 {
     color: #777;
 }
